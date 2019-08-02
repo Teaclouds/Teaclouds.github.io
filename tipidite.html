@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="ss.css">
+    <title> I Tipi Di Tè </title>
+    <!--<script src="jscode.js"> </script>-->
+    <style type="text/css">
+      .popup:hover
+      {width: 62%;
+      height: 60%;}
+    </style>
+
+  </head>
+
+  <body>
+<h1> I Tipi Di Tè </h1>
+
+<p onmouseover="makeColor(this)" onmouseout="makeBlack(this)"> Alcuni tipi maggiori di tè sono: </p>
+
+<p> nero </p>
+<a href="stir.gif">
+    <img width="35%" src="stir.gif" title="紅茶" onmouseover="this.src='nero.webp'" onmouseout="this.src='stir.gif'"></a>
+
+<p style="color:white"> bianco </p>
+<a href="chai.jpg">
+    <img width="35%" src="whitetea.jpg" title="白茶" onmouseover="this.src='white.jpg'" onmouseout="this.src='whitetea.jpg'"></a>
+<p style="color:yellowgreen"> verde </p>
+<a href="greentea.gif">
+    <img width="35%" src="greentea.gif" title="綠茶" onmouseover="this.src='greentea.jpg'" onmouseout="this.src='greentea.gif'"></a>
+
+<p style="color:darkred"> puer </p>
+<a href="puer.jpg">
+    <img width="35%" src="puer.jpg" title="普洱茶" onmouseover="this.src='puerh.jpg'" onmouseout="this.src='puer.jpg'"></a>
+
+<p style="color: gray"> oolong </p>
+<a href="oolong.gif">
+    <img width="35%" src="oolong.gif" title="烏龍茶" onmouseover="this.src='oolong.jpg'" onmouseout="this.src='oolong.gif'"></a>
+
+<p style="color:hsl(27, 98%, 50%)"> kombucha </p>
+<a href="kombucha.jpg">
+    <img class="popup" width="35%" src="kombucha.jpg" title="康普茶" onmouseover="this.src='seaweedtea.jpg'" onmouseout="this.src='kombucha.jpg'"></a>
+
+<p style="color:saddlebrown;"> chai </p>
+<a href="chai.jpg">
+    <img width="35%" src="chai.jpg" title="柴茶" onmouseover="this.src='chaitea.jpg'" onmouseout="this.src='chai.jpg'"></a>
+
+<p style="color:chocolate"> e tè alle perle (con latte)! </p>
+<a href="boba.gif">
+    <img width="35%" src="boba.gif" title="珍珠奶茶" onmouseover="this.src='milktea.png'" class="popup" onmouseout="this.src='boba.gif'"></a>
+
+
+<p onmouseover="makeColor(this)" onmouseout="makeBlack(this)"> Inoltre, potresti aggiungere spezie </p>
+<p onmouseover="makeColor(this)" onmouseout="makeBlack(this)">(come la cannella, lo zenzero, il cardamomo, il noce moscata, </p>
+<p onmouseover="makeColor(this)" onmouseout="makeBlack(this)"> il chiodo di garfano, il baccello di vaniglia, e l'anice stellato), </p>
+<P> <img src="spezie.jpg" title="香料" width="50%"></img> </P>
+
+<p onmouseover="makeColor(this)" onmouseout="makeBlack(this)"> erbe (il timo, il finocchio, il basilico, la salvia, il rosmarino, </p>
+<p onmouseover="makeColor(this)" onmouseout="makeBlack(this)"> la menta, la camomilla, il gelsomino), </p>
+<P> <img class="popup" src="erbe.jpg" title="草藥" width="45%"></img> </P>
+
+<p onmouseover="makeColor(this)" onmouseout="makeBlack(this)">frutta o succo di frutta (il limone, l'arancia, il pompelmo, le bacche,), </p>
+<P> <img src="citrus.gif" title="柑橘" width="45%"></img> </P>
+<p onmouseover="makeColor(this)" onmouseout="makeBlack(this)"> o miele e sciroppo alla sua tazza di tè. </p>
+<P> <img src="miele.gif" title="蜜糖" width="50%"></img> </P>
+
+<p style="font-size: 20px"> <a href="https://www.artoftea.com/catalogsearch/advanced/">Trova il tè per te!</a> </p>
+
+<h1> <a href="index.html">Per ritornare a casa, clica qui</a> </p>
+
+
+  </body>
+<!--onmouseover="makeRed()" onmouseout="makeBlack" id="lastParagraph"-->
+
+  <script>
+    function makeColor(element) {
+      element.style.color = "forestgreen";
+      }
+    function makeBlack(element) {
+      element.style.color = "black";
+      }
+
+  </script>
+<html>
